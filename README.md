@@ -18,21 +18,5 @@ The setup includes:
 
 1. Start the Selenium Grid:
 ```bash
+chmod +x scripts/start_grid.sh
 ./scripts/start_grid.sh
-```
-
-2. Access the Grid UI:
-- Hub: http://localhost:4444/ui
-- Chrome Node: http://localhost:5555
-- Firefox Node: http://localhost:5556
-
-3. Stop the Grid:
-```bash
-docker-compose down
-```
-
-## Port Configuration
-
-- Hub: 4442, 4443, 4444
-- Chrome Node: 5555
-- Firefox Node: 5556 
